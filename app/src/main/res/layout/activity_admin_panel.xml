@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#102535"
+    tools:context=".adminPanel">
+
+    <Button
+        android:id="@+id/ogrbilgigrs"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="158dp"
+        android:layout_marginTop="214dp"
+        android:layout_marginEnd="165dp"
+        android:onClick="ogrenciBilgiGiris"
+        android:text="Öğrenci Bilgi Girişi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/akabilgigrs"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="158dp"
+        android:onClick="akademisyenBilgiGiris"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="165dp"
+        android:text="Akademisyen Bilgi Girişi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ogrbilgigrs" />
+
+    <Button
+        android:id="@+id/prsbilgigrs"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="153dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="170dp"
+        android:onClick="personelBilgiGiris"
+        android:text="Personel Bilgi Girişi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/akabilgigrs" />
+</androidx.constraintlayout.widget.ConstraintLayout>

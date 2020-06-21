@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mertcaneren.beykentmobilapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".personelOgrenciGiris"></activity>
+        <activity android:name=".ogrenciKutuphane" />
+        <activity android:name=".ogrenciPanel2" />
+        <activity android:name=".adminPersonel" />
+        <activity android:name=".adminAkademisyen" />
+        <activity android:name=".adminOgrenciGiris" />
+        <activity android:name=".ogrenciBilgiGirisi" />
+        <activity android:name=".adminGiris" />
+        <activity android:name=".personelPanel" />
+        <activity android:name=".ogrenciPanel1" />
+        <activity android:name=".adminPanel" />
+        <activity android:name=".personelBildirim" />
+        <activity android:name=".personelDersProgrami" />
+        <activity android:name=".personelNotDuzenleme" />
+        <activity android:name=".personelSinavYeri" />
+        <activity android:name=".radyoOgrenci" />
+        <activity android:name=".ogrenciDersProgrami" />
+        <activity android:name=".akademisyenRandevuAl" />
+        <activity android:name=".ogrenciAkademisyen" />
+        <activity android:name=".ogrenciSinav" />
+        <activity android:name=".ogrenciDevamsizlik" />
+        <activity android:name=".notBilgileri" />
+        <activity android:name=".radyo" />
+        <activity android:name=".kutuphane" />
+        <activity android:name=".akademisyenBildirimGonder" />
+        <activity android:name=".akademisyenRandevu" />
+        <activity android:name=".personelAnaSayfa" />
+        <activity android:name=".akademisyenAnaSayfa" />
+        <activity android:name=".ogrenciAnaSayfa" />
+        <activity android:name=".personelGirisLogin" />
+        <activity android:name=".akademisyenGirisLogin" />
+        <activity android:name=".ogrenciGirisLogin" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

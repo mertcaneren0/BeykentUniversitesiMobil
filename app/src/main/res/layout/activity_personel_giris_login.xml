@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#102535"
+    tools:context=".personelGirisLogin">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="92dp"
+        android:background="@drawable/employee"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/personelid"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:drawableStart="@drawable/workerr"
+        android:drawableLeft="@drawable/workerr"
+        android:drawablePadding="5dp"
+        android:ems="10"
+        android:hint="Email giriniz."
+        android:inputType="textEmailAddress"
+        android:paddingLeft="5dp"
+        android:textColor="#FFDD00"
+        android:textColorHint="#FFDD00"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <EditText
+        android:id="@+id/personelpassword"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="24sp"
+        android:drawablePadding="5dp"
+        android:drawableStart="@drawable/passwordd"
+        android:drawableLeft="@drawable/passwordd"
+        android:ems="10"
+        android:hint="Şifrenizi giriniz."
+        android:inputType="textPassword"
+        android:paddingLeft="5dp"
+        android:textColor="#FFDD00"
+        android:textColorHint="#FFDD00"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/personelid" />
+
+    <Button
+        android:id="@+id/personelgiris"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:onClick="panasyf"
+        android:text="Giriş yap"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/personelpassword"
+        app:layout_constraintVertical_bias="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

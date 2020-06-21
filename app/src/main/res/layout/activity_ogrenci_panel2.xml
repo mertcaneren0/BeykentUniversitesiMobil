@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#102535"
+    tools:context=".ogrenciPanel2">
+
+    <Button
+        android:id="@+id/kayditamamla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kaydı Tamamla"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ders5sinif" />
+
+    <EditText
+        android:id="@+id/ders1dev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="#FFDD00"
+        android:textColorHint="#FFDD00"
+        android:inputType="textPersonName"
+        android:hint="Devamsızlık Bilgisi 1"
+        app:layout_constraintBottom_toTopOf="@+id/ders2dev"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/ders2sinif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="#FFDD00"
+        android:textColorHint="#FFDD00"
+        android:inputType="textPersonName"
+        android:hint="2. Dersin Sınıf Bilgisi"
+        app:layout_constraintBottom_toTopOf="@+id/ders3sinif"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ders1sinif" />
+
+    <EditText
+        android:id="@+id/ders1sinif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="#FFDD00"
+        android:textColorHint="#FFDD00"
+        android:inputType="textPersonName"
+        android:hint="1. Dersin Sınıf Bilgisi"
+        app:layout_constraintBottom_toTopOf="@+id/ders2sinif"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ders5dev" />
+
+    <EditText
+        android:id="@+id/ders4dev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="#FFDD00"
+        android:textColorHint="#FFDD00"
+        android:inputType="textPersonName"
+        android:hint="Devamsızlık Bilgisi 4"
+        app:layout_constraintBottom_toTopOf="@+id/ders5dev"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ders3dev" />
+
+    <EditText
+        android:id="@+id/ders3dev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="#FFDD00"
+        android:textColorHint="#FFDD00"
+        android:inputType="textPersonName"
+        android:hint="Devamsızlık Bilgisi 3"
+        app:layout_constraintBottom_toTopOf="@+id/ders4dev"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ders2dev" />
+
+    <EditText
+        android:id="@+id/ders2dev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="#FFDD00"
+        android:textColorHint="#FFDD00"
+        android:inputType="textPersonName"
+        android:hint="Devamsızlık Bilgisi 2"
+        app:layout_constraintBottom_toTopOf="@+id/ders3dev"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ders1dev" />
+
+    <EditText
+        android:id="@+id/ders3sinif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="#FFDD00"
+        android:textColorHint="#FFDD00"
+        android:inputType="textPersonName"
+        android:hint="3. Dersin Sınıf Bilgisi"
+        app:layout_constraintBottom_toTopOf="@+id/ders4sinif"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ders2sinif" />
+
+    <EditText
+        android:id="@+id/ders5dev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="#FFDD00"
+        android:textColorHint="#FFDD00"
+        android:inputType="textPersonName"
+        android:hint="Devamsızlık Bilgisi 5"
+        app:layout_constraintBottom_toTopOf="@+id/ders1sinif"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ders4dev" />
+
+    <EditText
+        android:id="@+id/ders4sinif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="#FFDD00"
+        android:textColorHint="#FFDD00"
+        android:inputType="textPersonName"
+        android:hint="4. Dersin Sınıf Bilgisi"
+        app:layout_constraintBottom_toTopOf="@+id/ders5sinif"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ders3sinif" />
+
+    <EditText
+        android:id="@+id/ders5sinif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="#FFDD00"
+        android:textColorHint="#FFDD00"
+        android:inputType="textPersonName"
+        android:hint="5. Dersin Sınıf Bilgisi"
+        app:layout_constraintBottom_toTopOf="@+id/kayditamamla"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ders4sinif" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

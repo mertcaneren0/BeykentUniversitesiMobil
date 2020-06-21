@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#102535"
+
+    tools:context=".ogrenciKutuphane">
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/backward"
+        android:onClick="oAn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <SearchView
+        android:id="@+id/aramaKutusu"
+        android:layout_width="229dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="88dp"
+        android:textColor="#FFDD00"
+        android:windowSoftInputMode="adjustResize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></SearchView>
+
+    <ListView
+        android:id="@+id/liste"
+        android:layout_width="362dp"
+        android:layout_height="580dp"
+        android:layout_below="@+id/aramaKutusu"
+        android:layout_marginTop="52dp"
+        android:cacheColorHint="#FFDD00"
+
+        android:textColor="#FFDD00"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button14" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

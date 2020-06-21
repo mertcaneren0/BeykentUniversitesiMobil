@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "436339175558",
+    "firebase_url": "https://beykentmobil-f64aa.firebaseio.com",
+    "project_id": "beykentmobil-f64aa",
+    "storage_bucket": "beykentmobil-f64aa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:436339175558:android:f2d8bdd23db4ecf56ba107",
+        "android_client_info": {
+          "package_name": "com.mertcaneren.beykentmobilapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "436339175558-fhf5vf1llkh3sa2t676d98t4silv2dan.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mertcaneren.beykentmobilapp",
+            "certificate_hash": "747e35797844026abbf0f1ba234295f1ad6a0ecb"
+          }
+        },
+        {
+          "client_id": "436339175558-mvufqoraabe8qj0vdcvhtunde3cuorcs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mertcaneren.beykentmobilapp",
+            "certificate_hash": "1109596f8ea1cfa096809279b010264706e6e56f"
+          }
+        },
+        {
+          "client_id": "436339175558-ede2oilr6sni50vpql056069aqgv768q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhD45R3xR38ZvHxxpVhE8UN1dIlpyaNZ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "436339175558-ede2oilr6sni50vpql056069aqgv768q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
